@@ -24,13 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 本文フォントサイズ：全体で +1px */
 body {
-  font-size: 21px;
+  font-size: 20px;
 }
 
 /* スマホ用のフォントサイズも +1px に調整 */
 @media (max-width: 768px) {
   body {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -42,10 +42,10 @@ body {
 
 @media (max-width: 320px) {
   body {
-    font-size: 15px;
+    font-size: 16px;
   }
   .article {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
