@@ -70,6 +70,19 @@ h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 
+/* 黒の太字＋黄色マーカー */
+.mark-bold-black {
+  font-weight: bold;
+  color: black;
+  background-color: yellow;
+}
+
+/* 赤の太字＋黄色マーカー */
+.mark-bold-red {
+  font-weight: bold;
+  color: red;
+  background-color: yellow;
+}
 
 
 
