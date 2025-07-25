@@ -83,12 +83,29 @@ h2, h3, h4, h5, h6 {
   background-color: yellow;
 }
 
-.e-content.article-entry.typo {
-  max-width: 800px;     /* 本文の最大幅を広げる */
-  margin: 0 auto;        /* 中央寄せ */
-  padding-left: 1em;     /* 内側の余白（任意） */
-  padding-right: 1em;
+/* ページ全体の背景を灰色に */
+body {
+  background-color: #f1f1f1; /* 両脇の灰色 */
 }
+
+/* 中央の本文＋白余白を囲むコンテナ */
+#container {
+  background-color: #ffffff; /* 白背景 */
+  max-width: 1000px;         /* 全体の幅：本文＋白余白両側 */
+  margin: 0 auto;            /* 中央寄せ */
+  padding-left: 200px;       /* 左の白余白（調整可） */
+  padding-right: 200px;      /* 右の白余白（調整可） */
+  box-sizing: border-box;
+}
+
+/* 本文ブロック */
+body .article .article-inner .e-content.article-entry.typo {
+  max-width: 800px;         /* 本文幅 */
+  margin: 0 auto;            /* コンテナ内で中央 */
+  background-color: #ffffff; /* 念のため明示 */
+  padding: 1em;              /* テキストと境界の余白 */
+}
+
 
 
 
