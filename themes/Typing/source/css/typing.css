@@ -83,45 +83,6 @@ h2, h3, h4, h5, h6 {
   background-color: yellow;
 }
 
-/* ページ全体の背景を灰色に */
-body {
-  background-color: #f1f1f1; /* 両脇の灰色 */
-}
-
-/* 画面全体に灰色背景を設定 */
-body {
-  background-color: #f0f0f0; /* 任意の灰色 */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* 中央の白背景領域 */
-#container {
-  background-color: #ffffff;
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* 本文を囲う構造すべての横幅制限を解除 */
-.article,
-.article-inner,
-.e-content.article-entry.typo {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* 実際の本文に余白を付けて見やすくする（必要に応じて調整） */
-.e-content.article-entry.typo {
-  padding: 2rem;
-  background-color: #ffffff; /* 念のため白に固定 */
-}
 
 
 
