@@ -99,13 +99,16 @@ body {
   box-sizing: border-box;
 }
 
-/* 本文エリアの幅を #container に揃える */
-.article-inner,
-.article-entry,
-.typo {
+/* 本文の幅を container に合わせて拡張 */
+#container .article .article-inner .article-entry,
+#container .article .article-inner .article-entry.typo {
   max-width: 1000px !important;
+  width: 100% !important;
   margin: 0 auto;
+  padding: 1.5em; /* 必要に応じて調整 */
+  background-color: #ffffff;
 }
+
 
 
 
