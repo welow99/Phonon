@@ -100,7 +100,7 @@ body {
 
 /* 本文ブロック */
 body .article .article-inner .e-content.article-entry.typo {
-  max-width: 800px;         /* 本文幅 */
+  max-width: 1000px;         /* 本文幅 */
   margin: 0 auto;            /* コンテナ内で中央 */
   background-color: #ffffff; /* 念のため明示 */
   padding: 1em;              /* テキストと境界の余白 */
