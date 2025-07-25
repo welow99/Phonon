@@ -90,19 +90,7 @@ body {
   padding: 0;
 }
 
-/* 中央の本文部分（class名はテーマによって異なる） */
-body .post,
-body .page,
-body .container,
-body .content 
-body article{
-  background-color: #ffffff; /* 本文は白 */
-  max-width: 800px;
-  margin: 0 auto;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-}
+
 
 
 
