@@ -83,6 +83,23 @@ h2, h3, h4, h5, h6 {
   background-color: yellow;
 }
 
+/* 背景全体を灰色に */
+body {
+  background-color: #f0f0f0; /* 好きな灰色に変更可 */
+  margin: 0;
+  padding: 0;
+}
+
+/* containerが白背景（空白）を作る役割 */
+#container {
+  background-color: #ffffff;  /* 白 */
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;          /* 空白 + 本文を含んだ全体幅 */
+  box-sizing: border-box;
+}
+
+
 
 
 
