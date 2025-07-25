@@ -28,7 +28,7 @@ body {
 }
 
 /* スマホ用のフォントサイズも +1px に調整 */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body {
     font-size: 17px;
   }
