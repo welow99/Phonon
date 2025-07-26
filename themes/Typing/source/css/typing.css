@@ -1080,11 +1080,14 @@ body {
   }
 }
 
-/* 記事本文の最大幅を狭める（900px） */
-#container .article .article-inner .article-entry,
-#container .article .article-inner .article-entry.typo {
+/* 記事本文の最大幅を狭める */
+.article .article-inner .article-entry,
+.article .article-inner .article-entry.typo {
+  width: auto !important;
   max-width: 900px !important;
+  margin: 0 auto;
 }
+
 
 
 
