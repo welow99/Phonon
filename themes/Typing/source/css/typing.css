@@ -19,7 +19,7 @@ audio,canvas,video {
   display:inline-block
 }
 body,button,input,select,textarea {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   border:0
 }
 table {
@@ -95,7 +95,7 @@ mark {
   margin:0 5px
 }
 code,pre,pre tt {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   border:1px solid #ddd;
   padding:1em 1.5em;
   display:block;
@@ -135,7 +135,7 @@ b,strong {
   table-layout:fixed
 }
 .serif {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   font-weight:100;
   color:#000;
   line-height:1.35
@@ -234,7 +234,7 @@ hr {
   overflow:visible
 }
 pre {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   font-size:1em
 }
 a {
@@ -250,7 +250,7 @@ b,strong {
   font-weight:bolder
 }
 code,kbd,samp {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   font-size:1em
 }
 small {
@@ -272,7 +272,7 @@ img {
   border-style:none
 }
 button,input,optgroup,select,textarea {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   font-size:100%;
   line-height:1.15;
   margin:0
@@ -352,11 +352,11 @@ body,h1,h2,h3,h4,h5,h6 {
   transition:all .25s ease
 }
 body {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   font-size:20px
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: Arial, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
   transition:color .25s linear;
   cursor:pointer
 }
