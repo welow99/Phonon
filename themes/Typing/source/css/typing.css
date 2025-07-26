@@ -1080,6 +1080,26 @@ body {
   }
 }
 
+/* ===================== */
+/* ↓背景の灰色設定 */
+/* ===================== */
+
+/* 背景全体を灰色に */
+body {
+  background-color: #f0f0f0;
+}
+
+/* 白い帯（container）は中央寄せのまま */
+#container {
+  background-color: #ffffff;
+}
+
+/* 本文を container 内で 95% に広げる */
+.article {
+  width: 95%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
 
 
