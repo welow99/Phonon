@@ -1122,7 +1122,22 @@ body {
 }
 
 
+/* すべてのページで白背景にリセット */
+body {
+  background-color: #ffffff;  
+}
 
+/* 記事ページだけ灰色背景にする */
+body.post {
+  background-color: #f0f0f0;
+}
+
+/* 記事ページの白背景がしっかり上まで届くように */
+body.post #container {
+  background-color: #ffffff;
+  padding-top: 1.5em;  /* 上部に余白を付けて、灰色が見えないように */
+  box-sizing: border-box;
+}
 
 
 
