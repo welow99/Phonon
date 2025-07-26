@@ -1139,5 +1139,24 @@ body.post #container {
   box-sizing: border-box;
 }
 
+/* 全体の背景色は白（記事以外のページ） */
+body {
+  background-color: #ffffff;
+}
 
+/* 記事ページだけ灰色にする */
+body.post {
+  background-color: #f0f0f0;
+}
 
+/* 記事ページ内の中央本文エリアは白く保つ */
+body.post #container {
+  background-color: #ffffff;
+  padding-top: 1.5em;
+}
+
+/* container中央寄せの基本設定 */
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
