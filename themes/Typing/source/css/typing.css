@@ -1015,14 +1015,14 @@ body {
 /* デフォルト（PC） */
 .article-entry,
 .article-entry.typo {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 /* タブレット（768px以下） */
 @media (max-width: 768px) {
   .article-entry,
   .article-entry.typo {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
@@ -1030,7 +1030,7 @@ body {
 @media (max-width: 468px) {
   .article-entry,
   .article-entry.typo {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -1038,7 +1038,26 @@ body {
 @media (max-width: 320px) {
   .article-entry,
   .article-entry.typo {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
+
+/* ===================== */
+/* ↓ 黒赤文字＋太字＋黄マーカー  */
+/* Joplinアプリ側でコマンド名の指定あり  */
+/* ===================== */
+
+.mark-bold-black {
+  font-weight: bold;
+  color: black;
+  background-color: yellow;
+}
+
+.mark-bold-red {
+  font-weight: bold;
+  color: red;
+  background-color: yellow;
+}
+
+
 
