@@ -1080,3 +1080,10 @@ body {
   }
 }
 
+/* PC表示時、記事本文を1文字分だけ狭くする */
+body.post .article {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+
