@@ -1080,6 +1080,11 @@ body {
   }
 }
 
+/* 記事ページの本文幅を少し狭める（約1〜2文字分） */
+body.post #container {
+  max-width: 920px;
+  margin: 0 auto;
+}
 
 
 
