@@ -1106,20 +1106,7 @@ body {
   box-sizing: border-box;
 }
 
-/* スマホ表示（タブレット以下）で container を狭める */
-@media (max-width: 768px) {
-  #container {
-    width: 95%;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
 
-  .article {
-    width: 90%;  
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-}
 
 
 
