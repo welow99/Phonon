@@ -1080,10 +1080,10 @@ body {
   }
 }
 
-/* 記事ページの本文幅を少し狭める（約1〜2文字分） */
-body.post #container {
-  max-width: 500px;
-  margin: 0 auto;
+/* 記事本文の最大幅を狭める（900px） */
+#container .article .article-inner .article-entry,
+#container .article .article-inner .article-entry.typo {
+  max-width: 900px !important;
 }
 
 
