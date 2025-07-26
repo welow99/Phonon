@@ -1087,19 +1087,25 @@ body {
 /* 背景全体を灰色に */
 body {
   background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
-/* 白い帯（container）は中央寄せのまま */
+/* 白い帯：本文とその余白を包む container */
 #container {
   background-color: #ffffff;
+  max-width: 1000px;   /* 白帯全体の幅 */
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-/* 本文を container 内で 95% に広げる */
+/* 本文だけを広げる */
 .article {
   width: 95%;
   margin: 0 auto;
   box-sizing: border-box;
 }
+
 
 
 
