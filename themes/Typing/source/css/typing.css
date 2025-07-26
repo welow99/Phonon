@@ -1059,5 +1059,27 @@ body {
   background-color: yellow;
 }
 
+/* ===================== */
+/* ↓ スマホ表示の左右余白を調整（記事幅を広げる） */
+/* ===================== */
+@media (max-width: 768px) {
+  .article {
+    width: 90%; /* タブレット */
+  }
+}
+
+@media (max-width: 468px) {
+  .article {
+    width: 95%; /* スマホ */
+  }
+}
+
+@media (max-width: 320px) {
+  .article {
+    width: 98%; /* 超小型スマホ（iPhone SEなど） */
+  }
+}
+
+
 
 
