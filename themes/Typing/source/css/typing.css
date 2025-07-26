@@ -1113,6 +1113,12 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
   }
+
+  .article {
+    width: 90%;  
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 }
 
 
