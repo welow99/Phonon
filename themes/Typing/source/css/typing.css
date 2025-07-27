@@ -1090,9 +1090,8 @@ body {
 /* 記事本文だけ白に戻す */
 .article {
   background-color: #ffffff;
-  padding: 30px 40px;
+  padding: 30px 10px;
   box-sizing: border-box;
-  border-radius: 6px; /* 任意。角を丸くしたい場合 */
 }
 
 
