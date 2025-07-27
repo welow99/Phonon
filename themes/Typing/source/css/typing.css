@@ -1089,9 +1089,10 @@ body {
 
 /* 記事本文だけ白に戻す */
 .article {
-  background-color: #ffffff;
-  padding: 30px 10px;
-  box-sizing: border-box;
+  max-width: 705px;              /* ← 625pxのテキスト幅を保つために調整 */
+  padding: 30px 40px;            /* ← 内部の余白（上下30px、左右40px） */
+  background-color: #ffffff;     /* ← 本文部分だけ白くする */
+  box-sizing: border-box;        /* ← paddingを含めて幅を算出 */
 }
 
 
