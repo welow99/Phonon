@@ -1080,6 +1080,14 @@ body {
   }
 }
 
+/* 記事本文の最大幅を狭める（900pxなど） */
+body.post .article-entry {
+  width: auto !important;
+  max-width: 500px !important;
+  margin: 0 auto !important;
+}
+
+
 
 
 
