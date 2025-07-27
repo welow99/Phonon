@@ -1087,12 +1087,33 @@ body {
   background-color: #f0f0f0; /* 全体の背景を灰色に */
 }
 
-/* 記事本文だけ白に戻す */
-.article {
-  max-width: 705px;              /* ← 625pxのテキスト幅を保つために調整 */
-  padding: 30px 40px;            /* ← 内部の余白（上下30px、左右40px） */
-  background-color: #ffffff;     /* ← 本文部分だけ白くする */
-  box-sizing: border-box;        /* ← paddingを含めて幅を算出 */
+
+/* PC表示時（769px以上）のみ灰色背景を適用 */
+@media (min-width: 769px) {
+  body {
+    background-color: #f0f0f0; /* PCだけ灰色背景 */
+  }
+
+  .article {
+    max-width: 705px;            /* ← テキスト実質625px */
+    padding: 30px 40px;
+    background-color: #ffffff;   /* 本文部分を白に */
+    box-sizing: border-box;
+  }
+}
+
+/* タブレット・スマホでは従来通り白背景 */
+@media (max-width: 768px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .article {
+    background-color: #ffffff;
+    max-width: 90%;              /* スマホ対応済みならそのままでもOK */
+    padding: 20px;
+    box-sizing: border-box;
+  }
 }
 
 
