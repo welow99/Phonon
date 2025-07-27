@@ -1083,7 +1083,7 @@ body {
 /* ===================== */
 /* 記事本文の左右だけ灰色にする（PC表示） */
 /* ===================== */
-@media (min-width: 769px) {
+@media (min-width: 800px) {
   body {
     background-color: #f0f0f0; /* PCだけ灰色背景 */
   }
