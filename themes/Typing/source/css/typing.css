@@ -558,7 +558,7 @@ blockquote {
 }
 .article {
   width:60%;
-  max-width:650px;/* 本文領域の幅（一行で表示される最大文字数）  */
+  max-width:625px;/* 本文領域の幅（一行で表示される最大文字数）  */
   margin:0 auto
 }
 .article .header {
