@@ -1083,35 +1083,15 @@ body {
 /* ===================== */
 /* 記事本文の左右だけ灰色にする（PC表示） */
 /* ===================== */
-body {
-  background-color: #f0f0f0; /* 全体の背景を灰色に */
-}
-
-
-/* PC表示時（769px以上）のみ灰色背景を適用 */
 @media (min-width: 769px) {
   body {
     background-color: #f0f0f0; /* PCだけ灰色背景 */
   }
 
   .article {
-    max-width: 705px;            /* ← テキスト実質625px */
+    max-width: 705px;            /* 実質テキスト幅625px */
     padding: 30px 40px;
-    background-color: #ffffff;   /* 本文部分を白に */
-    box-sizing: border-box;
-  }
-}
-
-/* タブレット・スマホでは従来通り白背景 */
-@media (max-width: 768px) {
-  body {
-    background-color: #ffffff;
-  }
-
-  .article {
-    background-color: #ffffff;
-    max-width: 90%;              /* スマホ対応済みならそのままでもOK */
-    padding: 20px;
+    background-color: #ffffff;   /* 本文部分だけ白 */
     box-sizing: border-box;
   }
 }
