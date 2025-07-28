@@ -1109,6 +1109,27 @@ body {
 }
 
 
+/* リンクの基本色を濃い青に */
+a {
+  color: #003366;  /* 濃紺（ネイビーブルー） */
+}
+
+/* ホバー時は明るめのブルーに変化 */
+a:hover,
+.typo a:hover {
+  color: #336699;  /* 明るめの青 */
+  border-bottom-color: #336699;
+  text-decoration: underline;
+}
+
+/* 補助リンクにも同じ濃紺を適用（記事メタ情報など） */
+.footer a,
+.article .article-meta a,
+.archive-container .page-nav a,
+.category-container .page-nav a,
+.tag-container .page-nav a {
+  color: #003366;
+}
 
 
 
