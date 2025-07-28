@@ -1109,31 +1109,6 @@ body {
 }
 
 
-/* 通常のリンク：文字色と下線を濃群青に */
-a {
-  color: #000f66;
-  border-bottom: 1px solid #000f66;
-  text-decoration: none;
-}
-
-/* ホバー時はやや明るくする（彩度を維持） */
-a:hover,
-.typo a:hover {
-  color: #3344aa;
-  border-bottom: 1px solid #3344aa;
-  text-decoration: none;
-}
-
-/* フッター・記事メタ情報などの補助リンクも統一 */
-.footer a,
-.article .article-meta a,
-.archive-container .page-nav a,
-.category-container .page-nav a,
-.tag-container .page-nav a {
-  color: #000f66;
-  border-bottom: 1px solid #000f66;
-  text-decoration: none;
-}
 
 
 
