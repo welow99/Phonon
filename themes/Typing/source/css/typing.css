@@ -1096,6 +1096,22 @@ body {
   }
 }
 
+/* ========================= */
+/* Noto Sans CJK JP を全体に最優先で適用 */
+/* ========================= */
+
+body,
+button,
+input,
+select,
+textarea,
+code,
+pre,
+pre tt,
+h1, h2, h3, h4, h5, h6,
+.serif {
+  font-family: "Noto Sans CJK JP", "Meiryo", "Yu Gothic", "Hiragino Kaku Gothic ProN", "MS PGothic", "Osaka", sans-serif;
+}
 
 
 
