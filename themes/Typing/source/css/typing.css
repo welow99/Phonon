@@ -1083,7 +1083,7 @@ body {
 /* ===================== */
 /* 記事本文の左右だけ灰色にする（PC表示） */
 /* ===================== */
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   body {
     background-color: #f0f0f0; /* PCだけ灰色背景 */
   }
@@ -1102,7 +1102,7 @@ body {
 
 .article-entry, .article-entry.typo {
   font-family: 'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', sans-serif;
-  font-size: clamp(14px, 1.2vw + 0.5rem, 18px); /* 👈 ここがレスポンシブ */
+  font-size: clamp(15px, 1.2vw + 0.5rem, 18px); /* 👈 ここがレスポンシブ */
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
