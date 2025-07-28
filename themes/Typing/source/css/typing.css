@@ -1108,6 +1108,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 記事タイトルを h1 と同じサイズに統一 */
+.article .article-title {
+  font-size: 2em;
+}
+
+/* レスポンシブ：768px以下で少し小さく */
+@media (max-width: 768px) {
+  .article .article-title {
+    font-size: 1.8em;
+  }
+}
+
+/* レスポンシブ：468px以下でさらに小さく */
+@media (max-width: 468px) {
+  .article .article-title {
+    font-size: 1.6em;
+  }
+}
+
+/* レスポンシブ：320px以下でさらに調整 */
+@media (max-width: 320px) {
+  .article .article-title {
+    font-size: 1.5em;
+  }
+}
 
 
 
