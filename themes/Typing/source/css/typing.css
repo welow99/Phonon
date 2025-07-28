@@ -1102,7 +1102,7 @@ body {
 
 .article-entry, .article-entry.typo {
   font-family: 'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', sans-serif;
-  font-size: clamp(16px, 1.2vw + 0.5rem, 18.5px); /* 👈 ここがレスポンシブ */
+  font-size: clamp(16.5px, 1.2vw + 0.5rem, 18.5px); /* 👈 ここがレスポンシブ */
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
