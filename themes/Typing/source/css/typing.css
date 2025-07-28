@@ -1109,27 +1109,32 @@ body {
 }
 
 
-/* リンクの基本色を濃い青に */
+/* 通常のリンク：文字色と下線を濃群青に */
 a {
-  color: #000f66;  /* 濃紺（ネイビーブルー） */
+  color: #000f66;
+  border-bottom: 1px solid #000f66;
+  text-decoration: none;
 }
 
-/* ホバー時は明るめのブルーに変化 */
+/* ホバー時はやや明るくする（彩度を維持） */
 a:hover,
 .typo a:hover {
-  color: #336699;  /* 明るめの青 */
-  border-bottom-color: #336699;
-  text-decoration: underline;
+  color: #3344aa;
+  border-bottom: 1px solid #3344aa;
+  text-decoration: none;
 }
 
-/* 補助リンクにも同じ濃紺を適用（記事メタ情報など） */
+/* フッター・記事メタ情報などの補助リンクも統一 */
 .footer a,
 .article .article-meta a,
 .archive-container .page-nav a,
 .category-container .page-nav a,
 .tag-container .page-nav a {
-  color: #003366;
+  color: #000f66;
+  border-bottom: 1px solid #000f66;
+  text-decoration: none;
 }
+
 
 
 
