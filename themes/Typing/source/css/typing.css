@@ -1136,7 +1136,7 @@ body {
 
 /* 引用ボックス（アプリ側でも定義） */
 .article-entry blockquote {
-  background-color: #f0f0f0;
+  background-color: #f5f8fa;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   font-style: normal;
