@@ -1089,7 +1089,7 @@ body {
   }
 
   .article {
-    max-width: 705px;            /* 実質テキスト幅625px */
+    max-width: 850px;            /* 実質テキスト幅 */
     padding: 30px 40px;
     background-color: #ffffff;   /* 本文部分だけ白 */
     box-sizing: border-box;
