@@ -1089,7 +1089,7 @@ body {
   }
 
   .article {
-    max-width: 800px;            /* 実質テキスト幅 */
+    max-width: 780px;            /* 実質テキスト幅 */
     padding: 30px 40px;
     background-color: #ffffff;   /* 本文部分だけ白 */
     box-sizing: border-box;
@@ -1102,7 +1102,7 @@ body {
 
 .article-entry, .article-entry.typo {
   font-family: 'Noto Sans JP', 'Yu Gothic UI', 'Segoe UI', sans-serif;
-  font-size: clamp(15px, 1.2vw + 0.5rem, 17px); /* 👈 ここがレスポンシブ */
+  font-size: clamp(15px, 1.2vw + 0.5rem, 18px); /* 👈 ここがレスポンシブ */
   line-height: 2.0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
