@@ -1085,7 +1085,7 @@ body {
 /* ===================== */
 @media (min-width: 850px) {
   body {
-    background-color: #f4efe3; /* PCだけ灰色背景 */
+    background-color: #f0f0f0; /* PCだけ灰色背景 */
   }
 
   .article {
