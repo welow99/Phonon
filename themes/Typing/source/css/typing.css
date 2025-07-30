@@ -1136,7 +1136,7 @@ body {
 
 /* 引用ボックス（アプリ側でも定義） */
 .article-entry blockquote {
-  background-color: #f5f8fa;
+  background-color: #f9f6f3;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   font-style: normal;
@@ -1154,7 +1154,6 @@ body {
   text-decoration-thickness: 1px; /* 線の太さ（必要に応じて） */
 }
 
-dfe
 
 
 
