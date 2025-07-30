@@ -103,3 +103,6 @@ theme: Typing
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+url: https://phonon.blog
+root: /
