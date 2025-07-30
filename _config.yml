@@ -13,8 +13,11 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://welow99.github.io
-root: /Phonon/
+
+# 古いGitHub Pages用の記述（これらは削除）
+# url: https://welow99.github.io
+# root: /Phonon/
+
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
