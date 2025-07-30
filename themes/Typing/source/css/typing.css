@@ -1047,17 +1047,28 @@ body {
 /* Joplinアプリ側でコマンド名の指定あり  */
 /* ===================== */
 
-.mark-bold-black {
+.red-bold-marker {
+  color: red;
   font-weight: bold;
-  color: black;
   background-color: yellow;
 }
 
-.mark-bold-red {
+.black-bold-marker {
+  color: black;
   font-weight: bold;
-  color: red;
   background-color: yellow;
 }
+
+.red-bold {
+  color: red;
+  font-weight: bold;
+}
+
+.black-bold {
+  color: black;
+  font-weight: bold;
+}
+
 
 /* ===================== */
 /* ↓ スマホ表示の左右余白を調整（記事幅を広げる） */
