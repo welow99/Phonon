@@ -1113,10 +1113,10 @@ body {
 
 .article-entry, .article-entry.typo {
   font-family: 
-  'Yu Gothic',
-  'Meiryo',
   'BIZ UDPGothic',
+  'Meiryo',
   'Hiragino Kaku Gothic ProN',
+  'Yu Gothic',
   sans-serif;
   font-size: clamp(15px, 1.2vw + 0.5rem, 18px); /* 👈 ここがレスポンシブ */
   line-height: 2.0;
