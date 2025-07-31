@@ -1164,13 +1164,6 @@ body {
   border-left: none;
 }
 
-/* 下線 */
-.article-entry ins {
-  text-decoration: underline;
-  text-decoration-color: currentColor;
-  text-underline-offset: 2px;   /* 下線と文字の間に少し余白 */
-  text-decoration-thickness: 1px; /* 線の太さ（必要に応じて） */
-}
 
 
 
