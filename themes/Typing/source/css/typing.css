@@ -1075,19 +1075,19 @@ body {
 /* ===================== */
 @media (max-width: 768px) {
   .article {
-    width: 85%; /* タブレット */
+    width: 90%; /* タブレット */
   }
 }
 
 @media (max-width: 468px) {
   .article {
-    width: 85%; /* スマホ */
+    width: 90%; /* スマホ */
   }
 }
 
 @media (max-width: 320px) {
   .article {
-    width: 85%; /* 超小型スマホ（iPhone SEなど） */
+    width: 90%; /* 超小型スマホ（iPhone SEなど） */
   }
 }
 
