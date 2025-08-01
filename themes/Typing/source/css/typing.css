@@ -1007,41 +1007,6 @@ pre .javascript .function,pre .keyword {
 /* ↓ 以下、追記スタイル  */
 /* ===================== */
 
-/* 行間 */
-body {
-  line-height: 1.8;
-}
-
-/* デフォルト（PC） */
-.article-entry,
-.article-entry.typo {
-  font-size: 18.5px;
-}
-
-/* タブレット（768px以下） */
-@media (max-width: 768px) {
-  .article-entry,
-  .article-entry.typo {
-    font-size: 17px;
-  }
-}
-
-/* スマホ（468px以下） */
-@media (max-width: 468px) {
-  .article-entry,
-  .article-entry.typo {
-    font-size: 16px;
-  }
-}
-
-/* 超小型端末（320px以下） */
-@media (max-width: 320px) {
-  .article-entry,
-  .article-entry.typo {
-    font-size: 15px;
-  }
-}
-
 /* ===================== */
 /* ↓ 黒赤文字＋太字＋黄マーカー  */
 /* Joplinアプリ側でコマンド名の指定あり  */
@@ -1130,22 +1095,16 @@ body {
 .article .article-title {
   font-size: 2em;
 }
-
-/* レスポンシブ：768px以下で少し小さく */
 @media (max-width: 768px) {
   .article .article-title {
     font-size: 1.8em;
   }
 }
-
-/* レスポンシブ：468px以下でさらに小さく */
 @media (max-width: 468px) {
   .article .article-title {
     font-size: 1.6em;
   }
 }
-
-/* レスポンシブ：320px以下でさらに調整 */
 @media (max-width: 320px) {
   .article .article-title {
     font-size: 1.5em;
