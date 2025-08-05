@@ -1121,37 +1121,8 @@ pre .javascript .function,pre .keyword {
 }
 
 /* ===================== */
-/* ↓ 灰色背景のラッパー設定 */
+/* ↓ 灰色背景のラッパー設定（clampでレスポンシブ対応） */
 /* ===================== */
-
-.article-wrapper {
-  display: flex;
-  justify-content: center;
-  background-color: #f0f0f0;
-  padding: 0 30px 30px 30px;
-}
-
-/* 記事本文の固定幅化 */
-.article {
-  width: 780px;
-  background-color: #ffffff;
-  padding: 30px 40px;
-  box-sizing: border-box;
-}
-
-/* モバイル対応で背景と幅を調整 */
-@media (max-width: 1000px) {
-  .article-wrapper {
-    background-color: transparent;
-    padding: 0;
-  }
-
-  .article {
-    width: 90%;
-    max-width: 100%;
-    padding: 20px;
-  }
-}
 
 .article-wrapper {
   display: flex;
@@ -1165,7 +1136,7 @@ pre .javascript .function,pre .keyword {
   width: 100%;
   max-width: 780px;
   padding: clamp(20px, 4vw, 40px);
-  background-color: #fff;
+  background-color: #ffffff;
   box-sizing: border-box;
 }
 
