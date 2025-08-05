@@ -1094,7 +1094,7 @@ pre .javascript .function,pre .keyword {
 
 /* 引用ボックス（アプリ側でも定義） */
 .article-entry blockquote {
-  background-color: #f0f0f0;
+  background-color: #f3f5f6;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   font-style: normal;
