@@ -1153,6 +1153,18 @@ pre .javascript .function,pre .keyword {
   }
 }
 
+@media (max-width: 768px) {
+  .article-wrapper {
+    padding: 0 10px 30px; /* 上0px・左右10px・下30px */
+  }
+
+  .article {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+
 
 
 
