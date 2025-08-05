@@ -1153,15 +1153,20 @@ pre .javascript .function,pre .keyword {
   }
 }
 
-@media (max-width: 768px) {
-  .article-wrapper {
-    padding: 0 10px 30px; /* 上0px・左右10px・下30px */
-  }
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 0 clamp(10px, 4vw, 30px) clamp(20px, 6vw, 50px); 
+  /* 上0、左右10〜30px、下20〜50px */
+}
 
-  .article {
-    width: 100%;
-    padding: 20px;
-  }
+.article {
+  width: 100%;
+  max-width: 780px;
+  padding: clamp(20px, 4vw, 40px);
+  background-color: #fff;
+  box-sizing: border-box;
 }
 
 
