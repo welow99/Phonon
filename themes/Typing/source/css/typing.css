@@ -1123,6 +1123,21 @@ pre .javascript .function,pre .keyword {
   border-left: none;
 }
 
+/* 外側を包む中央配置用のラッパーを追加（仮に .article-wrapper とする） */
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 30px 0; /* 上下余白 */
+}
+
+/* 本文エリアは固定幅、背景に依存しない */
+.article {
+  width: 780px;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
 
 
 
