@@ -29,8 +29,7 @@ table {
 fieldset,img {
   border:0
 }
-blockquote {
-  position:relative;
+
   color:#999;
   font-weight:400;
   border-left:1px solid #1abc9c;
@@ -556,9 +555,7 @@ blockquote {
 .archive-container .extend,.archive-container .page-number,.category-container .extend,.category-container .page-number,.tag-container .extend,.tag-container .page-number {
   margin-right:15px
 }
-.article {
-  width:60%;
-  max-width:625px;/* 本文領域の幅（一行で表示される最大文字数）  */
+/* 本文領域の幅（一行で表示される最大文字数）  */
   margin:0 auto
 }
 .article .header {
