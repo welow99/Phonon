@@ -1053,22 +1053,6 @@ pre .javascript .function,pre .keyword {
   }
 }
 
-/* ===================== */
-/* 記事本文の左右だけ灰色にする（PC表示） */
-/* ===================== */
-@media (min-width: 1000px) {
-  body {
-    background-color: #f0f0f0; /* PCだけ灰色背景 */
-  }
-
-  .article {
-    max-width: 780px;            /* 実質テキスト幅 */
-    padding: 30px 40px;
-    background-color: #ffffff;   /* 本文部分だけ白 */
-    box-sizing: border-box;
-  }
-}
-
 /* ========================= */
 /* フォントとレスポンシブ設定 */
 /* ========================= */
@@ -1118,26 +1102,6 @@ pre .javascript .function,pre .keyword {
   line-height: 1.8;
   border: none;
   border-left: none;
-}
-
-/* ===================== */
-/* ↓ 灰色背景のラッパー設定（clampでレスポンシブ対応） */
-/* ===================== */
-
-.article-wrapper {
-  display: flex;
-  justify-content: center;
-  background-color: #f0f0f0;
-  padding: 0 clamp(10px, 4vw, 30px) clamp(20px, 6vw, 50px); 
-  /* 上0、左右10〜30px、下20〜50px */
-}
-
-.article {
-  width: 100%;
-  max-width: 780px;
-  padding: clamp(20px, 4vw, 40px);
-  background-color: #ffffff;
-  box-sizing: border-box;
 }
 
 
