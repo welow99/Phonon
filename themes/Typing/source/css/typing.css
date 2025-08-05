@@ -1123,15 +1123,18 @@ pre .javascript .function,pre .keyword {
   border-left: none;
 }
 
-/* 外側を包む中央配置用のラッパーを追加（仮に .article-wrapper とする） */
+/* ===================== */
+/* ↓ 灰色背景のラッパー設定 */
+/* ===================== */
+
 .article-wrapper {
   display: flex;
   justify-content: center;
   background-color: #f0f0f0;
-  padding: 30px 0; /* 上下余白 */
+  padding: 30px 0;
 }
 
-/* 本文エリアは固定幅、背景に依存しない */
+/* 記事本文の固定幅化 */
 .article {
   width: 780px;
   background-color: #ffffff;
@@ -1139,6 +1142,19 @@ pre .javascript .function,pre .keyword {
   box-sizing: border-box;
 }
 
+/* モバイル対応で背景と幅を調整 */
+@media (max-width: 1000px) {
+  .article-wrapper {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .article {
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+  }
+}
 
 
 
