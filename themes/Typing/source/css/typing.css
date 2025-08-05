@@ -1131,7 +1131,7 @@ pre .javascript .function,pre .keyword {
   display: flex;
   justify-content: center;
   background-color: #f0f0f0;
-  padding: 30px 0;
+  padding: 30px;
 }
 
 /* 記事本文の固定幅化 */
