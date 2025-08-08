@@ -1070,6 +1070,7 @@ pre .javascript .function,pre .keyword {
   line-height: 2.0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #333; /* ← 色を少し薄く */
 }
 
 /* 記事タイトルを h1 と同じサイズに統一 */
