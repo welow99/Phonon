@@ -1067,7 +1067,7 @@ pre .javascript .function,pre .keyword {
   'YuGothic',
   sans-serif;
   font-size: clamp(15.5px, 1.2vw + 0.5rem, 17.5px); /* 👈 ここがレスポンシブ */
-  line-height: 1.8;
+  line-height: 36px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
