@@ -595,10 +595,7 @@ blockquote {
   border:0
 }
 .article .caption {
-  color:#aeb4b9;
-  display:block;
-  font-size:14px;
-  text-align:center
+  display: none !important;
 }
 .article .article-entry {
   word-break:break-word
