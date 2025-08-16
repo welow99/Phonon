@@ -1092,12 +1092,14 @@ pre .javascript .function,pre .keyword {
 
 /* 引用ボックス（アプリ側でも定義） */
 .article-entry blockquote {
-  background-color: #ffffff;   /* 背景は本文と同化 */
-  border: 2px solid #8b0000;   /* 濃い赤（firebrick）の枠線 */
+  background-color: #f5f5f5;
   padding: 1em 1.5em;
   margin: 1.5em 0;
-  color: #000000;              /* 読みやすい文字色 */
+  font-style: normal;
+  color: #3a3a3a;
   line-height: 2.0;
+  border: none;
+  border-left: none;
 }
 
 
