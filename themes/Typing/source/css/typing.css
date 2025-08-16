@@ -1093,10 +1093,10 @@ pre .javascript .function,pre .keyword {
 /* 引用ボックス（アプリ側でも定義） */
 .article-entry blockquote {
   background-color: #ffffff;   /* 背景は本文と同化 */
-  border: 2px solid #b22222;   /* 濃い赤（firebrick）の枠線 */
+  border: 2px solid #8b0000;   /* 濃い赤（firebrick）の枠線 */
   padding: 1em 1.5em;
   margin: 1.5em 0;
-  color: #333333;              /* 読みやすい文字色 */
+  color: #000000;              /* 読みやすい文字色 */
   line-height: 2.0;
 }
 
