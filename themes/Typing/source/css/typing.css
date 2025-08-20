@@ -1116,6 +1116,24 @@ pre .javascript .function,pre .keyword {
   box-sizing: border-box;
 }
 
+/* ===================== */
+/* 見出しのフォント設定 */
+/* ===================== */
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
+  font-family: 
+    'Noto Sans JP',
+    Meiryo,
+    'Hiragino Kaku Gothic ProN',
+    'ヒラギノ角ゴ ProN W3',
+    'Yu Gothic Medium',
+    'YuGothic',
+    sans-serif;
+}
 
 
 
