@@ -25,8 +25,8 @@ fb_app_id:
 
 
 # Profile
-nickname: Hakurin
-description: Secret blog
+nickname: Mayuri
+description: 
 
 # Load fontawesome icons? Also see the links option
 icons: false
@@ -42,8 +42,8 @@ links:
 nav: left
 
 # Info
-archive_footer_content: © 2025 Hakurin. All rights reserved.
-post_footer_content: © 2025 Hakurin. All rights reserved.
+archive_footer_content: © 2025 Mayuri. All rights reserved.
+post_footer_content: © 2025 Mayuri. All rights reserved.
 
 
 # Gitment
@@ -84,4 +84,4 @@ donate:
   AliPayQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/alipayQR.jpg
   WeChatQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/wechatQR.jpg
 
-title: Hakurin
+title: Mayuri
