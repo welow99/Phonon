@@ -1,0 +1,93 @@
+/* ================================
+   メルマガフォームデザイン（深緑×金）
+   ================================ */
+
+.mailform-wrapper {
+  background: #0c1a12;
+  color: #f2e9c9;
+  padding: 40px 30px;
+  border-radius: 16px;
+  max-width: 480px;
+  margin: 60px auto;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.mailform-title {
+  text-align: center;
+  color: #d4af37;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1.5em;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+}
+
+.mailform-title span {
+  display: block;
+  font-size: 0.85rem;
+  color: #cfcfcf;
+  margin-top: 0.3em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+.form-group label {
+  color: #d4af37;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.05em;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"] {
+  padding: 12px 15px;
+  border: 1px solid #2c3b30;
+  border-radius: 8px;
+  background: #18251c;
+  color: #fff;
+  font-size: 0.95rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border: 1px solid #d4af37;
+  box-shadow: 0 0 5px #d4af37;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.form-submit input[type="submit"] {
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: #0c1a12;
+  font-weight: 700;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-submit input[type="submit"]:hover {
+  background: linear-gradient(135deg, #e7c857, #d4af37);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+/* モバイル対応 */
+@media screen and (max-width: 480px) {
+  .mailform-wrapper {
+    padding: 30px 20px;
+  }
+  .mailform-title {
+    font-size: 1.2rem;
+  }
+}
