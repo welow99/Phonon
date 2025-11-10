@@ -1,0 +1,16 @@
+# Hexo
+public/
+.deploy*/
+node_modules/
+db.json
+Thumbs.db
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+ehthumbs.db
+Icon?

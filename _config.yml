@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mayuri
+title: KN
 subtitle: ''
 description: ''
 keywords:
@@ -105,7 +105,9 @@ theme: Typing
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/welow99/Phonon.git
+  branch: main
 
-url: https://www.phonon.blog
-root: /
+url: https://welow99.github.io
+root: /Phonon/
