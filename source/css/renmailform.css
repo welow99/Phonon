@@ -1,66 +1,65 @@
 /* ================================
-   深緑×金文字デザイン
+   シンプル×緑ボタンデザイン（画像再現）
    ================================ */
 
 .mailform-wrapper {
   background: transparent;
   text-align: center;
   margin: 40px auto;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
 /* メール入力欄 */
 .form-group input[type="email"] {
-  width: 320px;
+  width: 340px;
   max-width: 90%;
-  padding: 12px 16px;
-  border: 1.5px solid #000000; /* 枠線 */
-  border-radius: 6px;
+  padding: 14px 16px;
+  border: 1.5px solid #ccc;          /* 薄いグレーの枠線 */
+  border-radius: 4px;                /* やや角丸 */
   font-size: 1rem;
-  color: #cfcfcf;
-  background: #edfff8; /* 深緑 */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) inset;
-  transition: all 0.25s ease;
+  color: #333;
+  background: #fff;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
 }
 
 .form-group input[type="email"]::placeholder {
-  color: #c8c8c8;
+  color: #aaa;                       /* グレーのプレースホルダー */
 }
 
 .form-group input[type="email"]:focus {
-  border-color: #d4af37; /* 金色フォーカス */
-  box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+  border-color: #4caf50;             /* 緑フォーカス */
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
   outline: none;
 }
 
-/* 登録ボタン（深緑×金文字） */
+/* ボタン */
 .form-submit input[type="submit"] {
-  margin-top: 18px;
-  background: linear-gradient(180deg, #0f3b2e, #174f3d); /* 深緑のグラデ */
-  color: #ffffff; /* 金文字 */
+  margin-top: 14px;
+  background: #4caf50;               /* 安心感のある緑 */
+  color: #fff;
   font-weight: 700;
-  border: 1.5px solid #ffffff; /* 金縁 */
-  padding: 14px 36px;
-  border-radius: 8px;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 4px;
   font-size: 1.05rem;
   cursor: pointer;
+  box-shadow: 0 3px 0 #2e7d32;       /* 下方向に軽い影 */
+  transition: all 0.2s ease;
   letter-spacing: 0.05em;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
-/* ホバー時（明るい金と深緑のコントラスト強調） */
+/* ホバー時 */
 .form-submit input[type="submit"]:hover {
-  background: linear-gradient(180deg, #155c45, #1b6c52);
-  color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+  background: #58b85b;               /* 少し明るい緑 */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 #2e7d32;
 }
 
 /* 押下時 */
 .form-submit input[type="submit"]:active {
   transform: translateY(1px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 0 #2e7d32;
 }
 
 /* モバイル対応 */
