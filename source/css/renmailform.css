@@ -18,7 +18,7 @@
   border-radius: 6px;
   font-size: 1rem;
   color: #fff;
-  background: #0e2c20; /* 深緑 */
+  background: #cbffea; /* 深緑 */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) inset;
   transition: all 0.25s ease;
 }
@@ -37,7 +37,7 @@
 .form-submit input[type="submit"] {
   margin-top: 18px;
   background: linear-gradient(180deg, #0f3b2e, #174f3d); /* 深緑のグラデ */
-  color: #d4af37; /* 金文字 */
+  color: #ffffff; /* 金文字 */
   font-weight: 700;
   border: 1.5px solid #d4af37; /* 金縁 */
   padding: 14px 36px;
@@ -52,7 +52,7 @@
 /* ホバー時（明るい金と深緑のコントラスト強調） */
 .form-submit input[type="submit"]:hover {
   background: linear-gradient(180deg, #155c45, #1b6c52);
-  color: #f1d97e;
+  color: #ffffff;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
 }
