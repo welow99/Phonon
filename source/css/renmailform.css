@@ -1,71 +1,73 @@
 /* ================================
-   シンプル＋華やかフォームデザイン
+   深緑×金文字デザイン
    ================================ */
 
 .mailform-wrapper {
   background: transparent;
   text-align: center;
-  margin: 50px auto;
+  margin: 40px auto;
   font-family: "Noto Sans JP", sans-serif;
-  color: #333;
 }
 
-/* 入力欄 */
+/* メール入力欄 */
 .form-group input[type="email"] {
   width: 320px;
   max-width: 90%;
   padding: 12px 16px;
-  border: 1.5px solid #d4af37; /* ゴールド寄り */
+  border: 1.5px solid #444; /* 濃いグレーの枠線で落ち着き感 */
   border-radius: 6px;
   font-size: 1rem;
-  color: #333;
-  background: #fffef7; /* ほんのりアイボリー調 */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  background: #0e2c20; /* 深緑 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) inset;
   transition: all 0.25s ease;
 }
 
 .form-group input[type="email"]::placeholder {
-  color: #999;
+  color: #c8c8c8;
 }
 
 .form-group input[type="email"]:focus {
-  border-color: #b8860b;
+  border-color: #d4af37; /* 金色フォーカス */
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
   outline: none;
 }
 
-/* 登録ボタン */
+/* 登録ボタン（深緑×金文字） */
 .form-submit input[type="submit"] {
   margin-top: 18px;
-  background: linear-gradient(135deg, #ffd65c, #f39f32);
-  color: #fff;
+  background: linear-gradient(180deg, #0f3b2e, #174f3d); /* 深緑のグラデ */
+  color: #d4af37; /* 金文字 */
   font-weight: 700;
-  border: none;
-  padding: 14px 32px;
+  border: 1.5px solid #d4af37; /* 金縁 */
+  padding: 14px 36px;
   border-radius: 8px;
   font-size: 1.05rem;
   cursor: pointer;
   letter-spacing: 0.05em;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 14px rgba(243, 159, 50, 0.3);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+/* ホバー時（明るい金と深緑のコントラスト強調） */
 .form-submit input[type="submit"]:hover {
-  background: linear-gradient(135deg, #ffe26e, #f39f32);
+  background: linear-gradient(180deg, #155c45, #1b6c52);
+  color: #f1d97e;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(243, 159, 50, 0.45);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+}
+
+/* 押下時 */
+.form-submit input[type="submit"]:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* モバイル対応 */
 @media screen and (max-width: 480px) {
-  .form-group input[type="email"] {
-    width: 90%;
-    font-size: 0.95rem;
-  }
-
+  .form-group input[type="email"],
   .form-submit input[type="submit"] {
     width: 90%;
     font-size: 1rem;
-    padding: 14px 0;
   }
 }
