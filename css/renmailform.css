@@ -1,0 +1,72 @@
+/* ================================
+   シンプル×緑ボタンデザイン（画像再現）
+   ================================ */
+
+.mailform-wrapper {
+  background: transparent;
+  text-align: center;
+  margin: 40px auto;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+/* メール入力欄 */
+.form-group input[type="email"] {
+  width: 340px;
+  max-width: 90%;
+  padding: 14px 16px;
+  border: 1.5px solid #ccc;          /* 薄いグレーの枠線 */
+  border-radius: 4px;                /* やや角丸 */
+  font-size: 1rem;
+  color: #333;
+  background: #fff;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.form-group input[type="email"]::placeholder {
+  color: #aaa;                       /* グレーのプレースホルダー */
+}
+
+.form-group input[type="email"]:focus {
+  border-color: #4caf50;             /* 緑フォーカス */
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
+  outline: none;
+}
+
+/* ボタン */
+.form-submit input[type="submit"] {
+  margin-top: 14px;
+  background: #4caf50;               /* 安心感のある緑 */
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 3px 0 #2e7d32;       /* 下方向に軽い影 */
+  transition: all 0.2s ease;
+  letter-spacing: 0.05em;
+}
+
+/* ホバー時 */
+.form-submit input[type="submit"]:hover {
+  background: #58b85b;               /* 少し明るい緑 */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 #2e7d32;
+}
+
+/* 押下時 */
+.form-submit input[type="submit"]:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 0 #2e7d32;
+}
+
+/* モバイル対応 */
+@media screen and (max-width: 480px) {
+  .form-group input[type="email"],
+  .form-submit input[type="submit"] {
+    width: 90%;
+    font-size: 1rem;
+  }
+}
