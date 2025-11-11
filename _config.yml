@@ -107,7 +107,7 @@ theme: Typing
 deploy:
   type: git
   repo: https://github.com/welow99/Phonon.git
-  branch: main
+  branch: gh-pages
 
 url: https://welow99.github.io
 root: /Phonon/
